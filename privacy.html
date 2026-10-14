@@ -28,7 +28,7 @@
   <div class="bar"></div>
   <span class="pill">Privacy</span>
   <h1>Privacy Policy</h1>
-  <p class="sub">Step into Insights · Last updated 8 October 2026</p>
+  <p class="sub">Step into Insights · Last updated 13 October 2026</p>
 
   <div class="card">
     <strong>The short version:</strong> Step into Insights reads your Apple Health
@@ -44,8 +44,9 @@
   <h2>Health &amp; fitness data</h2>
   <p>With your permission, the app reads the following from Apple Health: steps,
   distance, active and resting energy, flights climbed, workouts and workout routes,
-  heart rate, heart rate variability, resting heart rate, sleep, stand and exercise
-  minutes, body mass, date of birth, and biological sex.</p>
+  heart rate, heart rate variability, resting heart rate, heart rate recovery,
+  walking and running speed, sleep, stand and exercise minutes, time in daylight,
+  body mass, date of birth, and biological sex.</p>
   <ul>
     <li>This data is read <strong>only</strong> — the app never writes to or modifies
       Apple Health.</li>
@@ -73,6 +74,23 @@
   today's activity, the last seven days of step totals, and your level and journey
   standing. You can hide step counts from widgets in the app's Settings.</p>
 
+  <h2>Not medical advice</h2>
+  <p>Every score and number in the app (including Readiness, Recovery, Strain,
+  Training Load, walking-calorie estimates and the daily brief) is a metric
+  calculated from the data Apple Health has for you. These are estimates for
+  general fitness and wellness interest only. They are <strong>not medical
+  advice, a diagnosis or a treatment</strong>, and they do not replace a doctor.
+  If you have a health concern, or before you change how you exercise, talk to a
+  qualified healthcare professional.</p>
+
+  <h2>Motion &amp; Fitness and camera</h2>
+  <p>Walk Mode asks for Motion &amp; Fitness access the first time you start a walk,
+  to show a live step count on your iPhone. That live count is not stored anywhere
+  but on your device; the walk's saved total still comes from Apple Health. The
+  optional goal-day snap asks for camera access the first time you take one. Snap
+  photos are saved only in the app's private storage (never your photo library)
+  and leave your device only if you share one. The app does not use your location.</p>
+
   <h2>Analytics (optional, off by default)</h2>
   <p>To understand which features are used, the app can send <strong>anonymous,
   privacy-preserving usage events</strong> via <a href="https://telemetrydeck.com"
@@ -86,6 +104,12 @@
     <li>You can turn analytics off again at any time in the app's Settings.</li>
   </ul>
 
+  <p>The only information that ever reaches a server run by someone other than
+  Apple is that optional analytics, and it contains <strong>event names and fixed
+  option values only</strong>: for example which screen was opened or which setting
+  was switched. It never contains Health values, names, birthdays, photos or free
+  text.</p>
+
   <h2>Apple Watch and maps</h2>
   <p>If you enable Watch surfaces, the app sends a display snapshot directly to your
   paired Apple Watch using Apple's WatchConnectivity framework. Workout-route maps use
@@ -97,6 +121,22 @@
   entirely by <strong>Apple's App Store</strong>. We never see or store your payment
   details. Purchase validation is performed on-device through Apple's StoreKit.</p>
 
+  <h2>Our App Store privacy answers and privacy manifest</h2>
+  <p>The same facts are declared to Apple in the app's App Store privacy label and
+  in its privacy manifest (<code>PrivacyInfo.xcprivacy</code>), and they match this page:</p>
+  <ul>
+    <li><strong>Tracking:</strong> none. No advertising identifier, no tracking
+      domains, no data sold or shared.</li>
+    <li><strong>Data not linked to you</strong> (analytics, only if you opt in):
+      <em>Product interaction</em> and <em>Device ID</em> (the pseudonymous hashed
+      installation identifier from TelemetryDeck).</li>
+    <li><strong>Data linked to you:</strong> <em>Purchase history</em>, for app
+      functionality, handled by Apple's App Store; we never see payment details.</li>
+    <li><strong>Not collected:</strong> your Health and fitness data, location,
+      contacts, photos, name, email or any account, because none of it leaves your
+      device.</li>
+  </ul>
+
   <h2>Notifications</h2>
   <p>If you enable them, reminders and celebration notifications are scheduled
   <strong>locally on your device</strong>. We do not operate a push-notification
@@ -104,7 +144,8 @@
 
   <h2>What we do not do</h2>
   <ul>
-    <li>We do not collect or store your data on any server.</li>
+    <li>We do not collect or store your Health data or personal information on any
+      server. The only usage data we receive is the optional analytics described above.</li>
     <li>We do not sell or share your data with anyone.</li>
     <li>We do not use third-party advertising or cross-app tracking.</li>
     <li>We do not require an account, email, or sign-in.</li>
